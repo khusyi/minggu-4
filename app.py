@@ -2,9 +2,9 @@ from flask import Flask, render_template, jsonify, request
 from pymongo import MongoClient
 from datetime import datetime
 
-connection_string = 'mongodb+srv://rifki:nazar999@cluster0.wagadp7.mongodb.net/?retryWrites=true&w=majority'
+connection_string = 'mongodb+srv://khusyi:sparta@cluster0.wmfbge6.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(connection_string)
-db = client.dbRifki
+db = client.dbkusi
 app = Flask(__name__)
 
 
